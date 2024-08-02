@@ -1,12 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import Logo from "../assets/preety_logo.jpeg";
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const [openLinks,setOpenLinks]=useState(false);
+  const toggleNavbar=()=>{setOpenLinks(!openLinks)};
+
   return (
     <div className="navbar">
-      <div className="leftSide">
+      <div className="leftSide" id={openLinks? "open" : "close"}>
         <img src={Logo} />
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
@@ -20,7 +23,7 @@ function Navbar() {
         <Link to="/services"> Services </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
-        <button>
+        <button onClick={toggleNavbar}>
           <i className="fa-solid fa-bars"></i>
         </button>
       </div>
