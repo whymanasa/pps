@@ -1,13 +1,13 @@
 .navbar {
-    width: 100%;
+width: 100%;
     height: 100px;
-    background-color: #9D7982;
+background-color: #9d7982;
     display: flex;
     flex-direction: row;
 }
 
 .navbar .leftSide {
-    flex: 50%;
+flex: 50%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -15,11 +15,11 @@
 }
 
 .navbar .leftSide img {
-    width: 150px;
+width: 150px;
 }
 
 .navbar .rightSide {
-    flex: 50%;
+flex: 50%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -27,80 +27,92 @@
 }
 
 .navbar a {
-    color: white;
+color: #e3dbd3;
     text-decoration: none;
     margin: 20px;
 }
 
 .navbar .rightSide button {
-    background-color: transparent;
+background-color: transparent;
     border: none;
     color: white;
     cursor: pointer;
 }
 
 .navbar .rightSide svg {
-    font-size: 40px;
+font-size: 40px;
 }
 
 .navbar #open {
-    padding-left: 0px;
+padding-left: 0px;
 }
 
 .navbar #open img {
-    display: none;
+display: none;
 }
 
 .navbar #close img {
-    display: inherit;
+display: inherit;
 }
 
 .navbar #open .hiddenLinks {
-    display: inherit;
+display: inherit;
     margin-left: 30px;
 }
 
 .navbar #close .hiddenLinks {
-    display: none;
+display: none;
 }
 
 .navbar #open a {
-    width: 70px;
+width: 70px;
     margin: 5px;
 }
 
 @media only screen and (max-width: 900px) {
-    .navbar .rightSide a {
+.navbar .rightSide a {
         width: 70px;
     }
 
-    .navbar .leftSide {
-        padding-left: 50px;
-    }
+  .navbar .leftSide {
+      padding-left: 50px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .navbar .rightSide a {
+.navbar .rightSide a {
         display: none;
     }
 
-    .navbar .rightSide {
-        justify-content: flex-end;
-        padding-right: 50px;
-    }
+  .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+  }
 
-    .navbar .rightSide button {
-        display: inherit;
-        font-size: 25px;
-    }
+  .navbar .rightSide button {
+      display: inherit;
+      font-size: 25px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-    .navbar .rightSide button {
+.navbar .rightSide button {
         display: none;
     }
 
-    .hiddenLinks {
-        display: none;
+  .navbar .leftSide .hiddenLinks {
+      display: none;
+  }
+
+  .navbar #open img {
+      display: inherit;
+  }
+
+  .navbar #open .hiddenLinks {
+      display: none;
+}
+
+.navbar #open {
+    padding-left: 100px;
     }
 }
