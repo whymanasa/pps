@@ -19,7 +19,7 @@
 .headerContainer h1 {
     justify-content: center;
     align-items: center;
-    font-size: 90px;
+    font-size: 60px;
     height: 60px;
     font-weight: 50;
     color: black;
@@ -28,7 +28,7 @@
 .headerContainer p {
     padding: 0;
     font-size: 40px;
-    font-weight: lighter;
+    font-weight: 250;
     color: black;
 }
 
@@ -57,9 +57,6 @@
         justify-content: center;
         align-items: center;
     }
-
-    .headerContainer h1,
-    .headerContainer p {}
 
     .headerContainer {
         margin-left: 0px;
