@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Logo from "../assets/preety_logo.jpeg";
+import Logo from "../assets/pretty_logo.png";
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 

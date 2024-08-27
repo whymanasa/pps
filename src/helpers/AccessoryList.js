@@ -1,6 +1,6 @@
 import ameowzing from "../assets/ameowzing.jpeg";
 import cat_earrings from "../assets/cat_earrings.jpeg";
-import cutie_froggie from "../assets/cutie_froggie.jpeg";
+import cutie_froggie from "../assets/cutie_forggie.jpeg";
 import ducking_love_it from "../assets/ducking_love_it.jpeg";
 import lucky_charm_pin from "../assets/lucky_charm_pin.jpeg";
 import pin_to_ur_heart from "../assets/pin_to_ur_heart.jpeg";

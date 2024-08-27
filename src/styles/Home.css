@@ -22,30 +22,35 @@
     font-size: 60px;
     height: 60px;
     font-weight: 50;
-    color: black;
+    color: #602F32;
 }
 
 .headerContainer p {
     padding: 0;
-    font-size: 40px;
-    font-weight: 250;
-    color: black;
+    font-size: 45px;
+        font-weight: 300;
+        color: #602F32;
 }
 
 .headerContainer button {
-    color: black;
+    color: #602F32;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     justify-content: center;
-    background-color: #121619;
+    background-color: #602F32;
     height: 50px;
     width: 180px;
-    color: white;
+    color: #e3dbd3;
     text-decoration: none;
     font-size: 20px;
 }
 
+.heart {
+    color: #602F32;
+    margin-left: 50px;
+    margin-top: 30px;
+}
 .headerContainer button:hover {
     background-color: #07090a;
     cursor: pointer;
@@ -67,7 +72,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: #121619;
+        background-color: #602F32;
         color: white;
     }
 
