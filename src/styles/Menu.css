@@ -43,12 +43,12 @@
 
 .menuItem {
     border-radius: 15px;
-    border: 2px solid #658a75;
+    border: 2px solid #cabaa2;
     width: 300px;
     height: 395px;
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    background-color: #709882;
+    background-color: #f1e0c4;
 }
 
 .menuItem:hover {
