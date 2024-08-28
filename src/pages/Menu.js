@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import otherBackground from "../assets/otherBackground.png";
 import "../styles/Menu.css";
 import { TattooList } from "../helpers/TattooList";
 import { AccessoryList } from "../helpers/AccessoryList";
@@ -14,7 +13,7 @@ function Menu() {
   const setHairstyles = () => setNameLink(HairstyleList);
 
   return (
-    <div className="menu" style={{ background: `url(${otherBackground})` }}>
+    <div className="menu" >
       <div className="buttons">
         <button onClick={setTattoos}>Temp Tattoos</button>
         <button onClick={setAccessories}>Accessories</button>

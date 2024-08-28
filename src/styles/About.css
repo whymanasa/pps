@@ -24,12 +24,13 @@
 
 .aboutBottom p {
     width: 1200px;
+    color: #602F32;
 }
 
 .about .aboutBottom h1 {
     font-weight: 400;
     font-size: 70px;
-    color: black;
+    color: #602F32;
     height: 30px;
     display: flex;
     justify-content: center;
